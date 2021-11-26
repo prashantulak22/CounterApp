@@ -1,11 +1,17 @@
-import './App.css';
+import React from 'react'
+import './App.css'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-     
+    <div className="container">
+      <h1>Counter App with React and Redux</h1>
+      <div className="content">
+        <a className="square_btn">Minus</a>
+        <input  className="input-area" type="text" value="0" />
+        <a  className="square_btn">Plus</a>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
